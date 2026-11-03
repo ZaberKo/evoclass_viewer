@@ -1,6 +1,6 @@
 # Build the viewer and publish dist/ to GitHub Pages.
 # One-time setup: Settings → Pages → Build and deployment → Source → GitHub Actions.
-# The site is served at https://<user>.github.io/evoclass_viewer/
+# The site is served at https://zaberko.github.io/evoclass_viewer/
 # Vite base is already './', so the same dist/ works for file:// and this project path.
 name: Deploy viewer to Pages
 

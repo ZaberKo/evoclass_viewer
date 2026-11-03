@@ -2,6 +2,14 @@
 
 A portable course library and HTML slide reader built with pnpm, Vite, TypeScript, and CSS. Course files are selected and read entirely in the browser. No local backend, upload service, database, or installed runtime is needed to use the built viewer.
 
+## Hosted viewer
+
+The viewer is published on GitHub Pages:
+
+**https://zaberko.github.io/evoclass_viewer/**
+
+Pushes to `main` run `.github/workflows/pages.yml`, which tests the project, builds `dist/`, and deploys that folder. Open the URL, then click **Open course folder** and choose a local course directory containing `course.json`. Course files stay in the browser and are not uploaded to the site.
+
 ## Build and open
 
 For development and building, use Node.js 22.18+ or 24 and pnpm.
