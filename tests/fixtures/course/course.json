@@ -1,0 +1,8 @@
+{
+  "title": "Example Database Course",
+  "desc": "A small course for verifying the local viewer.",
+  "hours": 12,
+  "source_language": "en",
+  "stage": "Undergraduate",
+  "categories": ["Databases"]
+}
